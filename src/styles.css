@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: whitesmoke !important;
+}
+
+.container {
+    padding: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.heading {
+    background-color: #f44242;
+    height: 40px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    top: 0;
+    left: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.head-padding {
+    padding: 10px 20px 0 30px;
+}
+
+.card {
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 3px 3px #767676;
+}
+
+.count {
+    margin-top: 0;
+}
+
+.large-icon {
+    width: 100px !important;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #429bf4;
+    color: white;
+    padding: 14px;
+}
+
+.card-row {
+    padding-left: 15px;
+}
+
+.small-card {
+    width: 100px !important;
+    height: 100px;
+    margin: 10px;
+}
+.large-card{
+    width: 150px !important;
+    height: 100px;
+    margin: 13px;
+}
+.card-red {
+    background-color: #f44242;
+}
+
+.card-blue {
+    background-color: #4289f4;
+}
+
+.card-green {
+    background-color: #42f486;
+}
