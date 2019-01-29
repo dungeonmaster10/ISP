@@ -1,4 +1,5 @@
 <div class="container">
+  <div class="dashboard">
   <div class="row">
     <div class="col-md-4">
       <div class="card">
@@ -18,15 +19,15 @@
         </div>
         <div class="row">
           <div class="card-row">
-            <div class="col-md-4 small-card card-red text-center">
+            <div class="col-sm-12 col-md-4 small-card card-red text-center">
               <h3>Total</h3>
               <h3>12345</h3>
             </div>
-            <div class="col-md-4 small-card card-blue text-center">
+            <div class="col-sm-12 col-md-4 small-card card-blue text-center">
               <h3>Total</h3>
               <h3>12345</h3>
             </div>
-            <div class="col-md-4 small-card card-green text-center">
+            <div class="col-sm-12 col-md-4 small-card card-green text-center">
               <h3>Total</h3>
               <h3>12345</h3>
             </div>
@@ -52,15 +53,15 @@
 
         <div class="row">
           <div class="card-row">
-            <div class="col-md-4 small-card card-red text-center">
+            <div class="col-sm-12 col-md-4 small-card card-red text-center">
               <h3>Total</h3>
               <h3>12345</h3>
             </div>
-            <div class="col-md-4 small-card card-blue text-center">
+            <div class="col-sm-12 col-md-4 small-card card-blue text-center">
               <h3>Total</h3>
               <h3>12345</h3>
             </div>
-            <div class="col-md-4 small-card card-green text-center">
+            <div class="col-sm-12 col-md-4 small-card card-green text-center">
               <h3>Total</h3>
               <h3>12345</h3>
             </div>
@@ -74,6 +75,17 @@
       <div class="card">
         <div class="heading text-center">
           <h2>Statistics</h2>
+        </div>
+        <div class="pieData">
+          <canvas baseChart
+          [data]="pieChartData"
+          [labels]="pieChartLabels"
+          [chartType]="pieChartType"
+          [options]="pieChartOptions"
+          (chartHover)="chartHovered($event)"
+          (chartClick)="chartClicked($event)"
+          width="400px"
+          height="400px"></canvas>
         </div>
       </div>
     </div>
@@ -95,4 +107,7 @@
       </div>
     </div>
   </div>
+  </div>
+  <br>
+  <br><br><br>
 </div>
