@@ -1,0 +1,25 @@
+nav{
+    height: 70px;
+    top: 0;
+    margin:0;
+    position: absolute;
+    margin-left: 46em;
+    margin-right: 0;
+    text-indent: 0%;
+}
+nav ul li{
+    display: inline-flex;
+    width: 160px;
+    cursor: pointer;
+    text-align: center;
+    padding: 25px 40px;
+}
+
+li:hover{
+    background-color: #111;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
