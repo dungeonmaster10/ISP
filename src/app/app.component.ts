@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent implements OnInit {
   title = 'app';
-  constructor(private service: IspService, private router: Router) {
+  constructor(public service: IspService, private router: Router) {
   }
   logout() {
     this.service.doLogin = false;
